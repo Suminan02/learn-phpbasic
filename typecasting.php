@@ -8,4 +8,13 @@
 
   $total=(int)$total;
   echo "หลังแปลง".$total."<br>";
+
+  echo "<hr>";
+  $sum="5000";
+  echo "before".$sum."<br>";
+  echo "ก่อนแปลง =".gettype($sum)."<br>";
+  $sum=(int)$sum;
+  echo "หลังแปลง =".gettype($sum)."<br>";
+  echo "หลังแปลง".$sum."<br>";
+
 ?>
