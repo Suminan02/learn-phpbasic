@@ -16,6 +16,12 @@
   echo "expense =".$expense."<br>";
   echo $income-$expense."<br>";
 
+  echo "<hr>";
+  echo gettype($income) ."<br>";
+  echo gettype($expense) ."<br>";
+  echo gettype($titlename) ."<br>";
+  settype($income,"string");
+  echo gettype($income) ."<br>";
   ?>
 </body>
 </html>
